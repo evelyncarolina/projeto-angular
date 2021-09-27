@@ -1,0 +1,39 @@
+footer {
+    background-color: #2a0b66;
+}
+
+ul.social-network {
+    list-style: none;
+    padding: 0%;
+}
+
+ul li {
+    display: inline;
+    margin: 0%;
+    padding: 5px;
+}
+
+.fa {
+    font-size: 35pt;
+    color:white;
+    padding: 10px;
+}
+
+.fa-facebook-square:hover {
+    color: #7653d4;
+    transform: scale(1.2, 1.2);
+}
+
+.fa-instagram:hover {
+    color: #7653d4;
+    transform: scale(1.2, 1.2);
+}
+
+.fa-linkedin-square:hover {
+    color: #7653d4;
+    transform: scale(1.2, 1.2);
+}
+
+.background-do-copy {
+    background-color: #190444;
+}
