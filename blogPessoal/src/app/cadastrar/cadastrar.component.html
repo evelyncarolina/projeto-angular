@@ -1,0 +1,55 @@
+<div class="container-fluid">
+
+   <div class="row">
+       <div class="col-md-6" id="img-bg"></div>
+
+       <div class="col-md-6 mt-5 mb-5">
+           <div class="row d-flex justify-content-center">
+               <div class="col-md-10">
+                   <h1 class="text-center">Cadastro</h1>
+
+                   <div class="form-group">
+                    <label for="nome">Nome</label>
+                        <br>
+                        <input type="form-control" type="text" name="nome" id="nome" placeholder="ex: Ana Maria da Costa">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="foto">Link da sua foto</label>
+                            <br>
+                            <input type="form-control" type="text" name="foto" id="foto" placeholder="Insira o Link">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="senha">Digite a senha</label>
+                        <br>
+                        <input type="form-control" type="password" name="senha" id="senha" placeholder="sua senha">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="corfirmaSenha">Confirme a senha</label>
+                        <br>
+                        <input type="form-control" type="password" name="corfirmaSenha" id="corfirmaSenha" placeholder="Confime sua senha">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tipo">Tipo de Usuário</label>
+                        <select class="form-control" name="tipo" id="tipo">
+                        <option value="normal">Usuário normal</option> 
+                        <option value="adm">Usuário Administrador</option>   
+                        </select>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <button type="summit" class="btn btn-danger mr-4" routerLink='/entrar'>Cancelar</button>
+                        <button type="summit" class="btn btn-success mr-4">Cadastrar</button>
+                    </div>
+
+               </div>
+
+           </div>
+       </div>
+
+   </div>
+
+</div>
