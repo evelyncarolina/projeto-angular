@@ -6,11 +6,11 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto d-flex align-items-center">
         <li class="nav-item active">
-          <img src="https://i.imgur.com/Bd59G0B.jpg" title="source: imgur.com" alt="" width="50px" height="50px" class="img-fluid rounded-circle"/>
+          <img src="{{foto}}" alt="imagem do usuario" width="50px" height="50px" class="img-fluid rounded-circle"/>
         </li>
 
         <li class="nav-item">
-          <p class="m-0 text-white pl-3 fs-16">Nome do usuário</p>
+          <p class="m-0 text-white pl-3 fs-16">{{nome}}</p>
         </li>
 
         <li class="nav-item pl-3">
@@ -23,7 +23,7 @@
 
       <ul class="navbar-nav ml-auto d-flex align-items-center">
         <li class="nav-item pl-3">
-            <a href="" class="text-white fs-16 m-0"><i class="fa fa-sign-out" aria-hidden="true"></i>Sair
+            <a (click)='sair()' href="" class="text-white fs-16 m-0"><i class="fa fa-sign-out" aria-hidden="true"></i>Sair
             </a>
         </li>
     </ul>
