@@ -1,15 +1,15 @@
+<app-menu *ngIf='auth.logado()'></app-menu>
+    <router-outlet></router-outlet>
+<app-rodape *ngIf='auth.logado()'></app-rodape>
+
+<!-- TIRAR ESSE COMENTARIO!!!
+
+
 <app-menu></app-menu>
 
 <app-tema></app-tema>
 
 <app-rodape></app-rodape>
-
-<!-- TIRAR ESSE COMENTARIO!!!
-
-<app-menu *ngIf='auth.logado()'></app-menu>
-    <router-outlet></router-outlet>
-<app-rodape *ngIf='auth.logado()'></app-rodape>
-
 
 -->
 

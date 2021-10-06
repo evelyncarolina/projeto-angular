@@ -12,6 +12,8 @@ import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { HashLocationStrategy, LocationStrategy} from '@angular/common';
 import { TemaComponent } from './tema/tema.component';
+import { TemaEditarComponent } from './editar/tema-editar/tema-editar.component';
+import { TemaDeletarComponent } from './deletar/tema-deletar/tema-deletar.component';
 
 
 @NgModule({
@@ -23,6 +25,8 @@ import { TemaComponent } from './tema/tema.component';
     CadastrarComponent,
     InicioComponent,
     TemaComponent,
+    TemaEditarComponent,
+    TemaDeletarComponent,
   ],
   imports: [
     BrowserModule,
