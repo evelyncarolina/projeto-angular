@@ -39,29 +39,21 @@
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">Descrição</th>
+                    <th scope="col" class="text-right">Modificações</th>
+                   
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                  <tr *ngFor='let item of listaTema'>
+                    <th>{{item.id}}</th>
+                    <td>{{item.descricao}}</td>
+                    <td class="d-flex justify-content-end">
+                      <button class="btn btn-info mr-3">Editar</button>
+                      <button class="btn btn-danger">Apagar</button>
+                    </td>
                   </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
-                  </tr>
+                  
                 </tbody>
               </table>
         </div>
