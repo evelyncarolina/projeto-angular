@@ -21,7 +21,7 @@ export class CadastrarComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    window.scroll(0,0) // erro começou aqui
+    window.scroll(0,0) 
   }
 
   confirmeSenha(event: any) {
